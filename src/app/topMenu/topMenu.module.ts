@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { TopMenuComponent } from './topMenu.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { RightMenuRoutingModule } from './topMenuRouting.module';
+import { TopMenuRoutingModule } from './topMenuRouting.module';
 
 
 @NgModule({
     declarations: [TopMenuComponent],
-    imports: [RightMenuRoutingModule],
+    imports: [TopMenuRoutingModule],
     exports:[TopMenuComponent],
     providers:[]
 })
-export class LeftMenuModule {
+export class TopMenuModule {
 
 }
