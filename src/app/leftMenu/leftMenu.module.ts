@@ -3,13 +3,12 @@ import { LeftMenuComponent } from './leftMenu.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LeftMenuRoutingModule } from './leftMenuRouting.module';
 
-
 @NgModule({
     declarations: [LeftMenuComponent],
     imports: [LeftMenuRoutingModule],
     exports:[LeftMenuComponent],
-    providers:[]
+    providers:[]  
 })
-export class LeftMenuModule {
+export class LeftMenuModule {    
 
 }
